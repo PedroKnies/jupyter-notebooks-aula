@@ -2,6 +2,16 @@
   "cells": [
     {
       "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PedroKnies/jupyter-notebooks-aula/blob/main/aula%201%20resolvida\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
       "id": "a14edb7e",
       "metadata": {
         "id": "a14edb7e",
@@ -1246,31 +1256,45 @@
       ]
     },
     {
-      "cell_type": "markdown",
-      "source": [
-        "#respostas\n",
-        "\n",
-        "1- funciona\n",
-        "\n",
-        "2- erro de sintaxe\n",
-        "\n",
-        "\n",
-        "3- 1 fala que nunca foi fechado 2 erro de sintaxe"
-      ],
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "3kccLSHLAlVl",
       "metadata": {
-        "id": "E3Q3_Ng_X0SP"
+        "id": "3kccLSHLAlVl"
       },
-      "id": "E3Q3_Ng_X0SP"
+      "outputs": [],
+      "source": [
+        "1- funciona\n",
+        "2- nao funciona\n",
+        "3- 1 fala q ta imconpleto 2 erro de sintaxe"
+      ]
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "round (42.5)\n"
+      ],
       "metadata": {
-        "id": "49rUmkQRXzqs"
+        "id": "yTAd3g42Hblb",
+        "outputId": "57f53ca3-686d-43bd-cf18-284dbe4699f5",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
-      "id": "49rUmkQRXzqs",
-      "execution_count": null,
-      "outputs": []
+      "id": "yTAd3g42Hblb",
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "42"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -1305,17 +1329,17 @@
     {
       "cell_type": "code",
       "source": [
-        "type (type)"
+        "type(type)"
       ],
       "metadata": {
+        "id": "ri6dXuD1HtPU",
+        "outputId": "03e40450-f88b-4572-ae9f-88c0a334a882",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "7DTXGkKuZuDh",
-        "outputId": "1ca32dae-3367-4f5f-f03b-5fa2b969f295"
+        }
       },
-      "id": "7DTXGkKuZuDh",
-      "execution_count": 30,
+      "id": "ri6dXuD1HtPU",
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1325,7 +1349,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 30
+          "execution_count": 5
         }
       ]
     },
@@ -1338,23 +1362,14 @@
       },
       "outputs": [],
       "source": [
-        "1- inteiro\n",
-        "\n",
+        "1- int\n",
         "2- float\n",
-        "\n",
         "3- str\n",
-        "\n",
         "4- int\n",
-        "\n",
-        "5- float\n",
-        "\n",
-        "6- erro nao definida\n",
-        "\n",
-        "7- int\n",
-        "\n",
-        "8- type\n",
-        "\n",
-        "\n"
+        "5- int\n",
+        "6- float\n",
+        "7- erro\n",
+        "8- int"
       ]
     },
     {
@@ -1383,85 +1398,20 @@
     },
     {
       "cell_type": "code",
-      "source": [
-        "largura = float(input(\"digite a largura\"))\n",
-        "altura = float(input(\"digite a altura\"))\n",
-        "\n",
-        "area = largura * altura\n",
-        "\n",
-        "custo = area / 2\n",
-        "\n",
-        "print(custo)"
-      ],
-      "metadata": {
-        "id": "g7Js9pfHZ546"
-      },
-      "id": "g7Js9pfHZ546",
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
       "execution_count": null,
       "id": "NFmoMC0FA3ay",
       "metadata": {
         "id": "NFmoMC0FA3ay"
       },
       "outputs": [],
-      "source": [
-        "# Inclua aqui as respostas\n",
-        "\n",
-        "1- resultado = 3 + 6\n",
-        "\n",
-        "print (resultado)\n",
-        "\n",
-        "2- a = int(input(\"qual valor no 1 numero\"))\n",
-        "b = int(input(\"qual valor no 2 numero\"))\n",
-        "c = int(input(\"qual valor no 3 numero\"))\n",
-        "\n",
-        "soma = a + b + c\n",
-        "print(soma)\n",
-        "print(abs(soma / b))\n",
-        "\n",
-        "3- A = int(input(\"qual valor no 1 numero\"))\n",
-        "print(\"esse é o sucessor do numero\", A + 1)\n",
-        "print(\"esse é o antecessor do numero\", A - 1)\n",
-        "\n",
-        "4- altura = float(input(\"qual a altura do triangulo\"))\n",
-        "base = float(input(\"qual a base do triangulo\"))\n",
-        "\n",
-        "area = (base * altura) / 2\n",
-        "\n",
-        "print(area)\n",
-        "\n",
-        "5- numero = float(input(\"digite um numero\"))\n",
-        "print (numero * 2)\n",
-        "print (numero * 3)\n",
-        "print (numero ** (1/2))\n",
-        "\n",
-        "6-valor_em_metros = int(input(\"digite um valor em metros\"))\n",
-        "print(valor_em_metros * 100)\n",
-        "print(valor_em_metros * 1000)\n",
-        "\n",
-        "7- largura = float(input(\"digite a largura\"))\n",
-        "altura = float(input(\"digite a altura\"))\n",
-        "\n",
-        "area = largura * altura\n",
-        "\n",
-        "custo = area / 2\n",
-        "\n",
-        "print(custo)\n",
-        "\n",
-        "\n",
-        "\n",
-        "\n"
-      ]
+      "source": []
     }
   ],
   "metadata": {
     "celltoolbar": "Tags",
     "colab": {
-      "provenance": []
+      "provenance": [],
+      "include_colab_link": true
     },
     "kernelspec": {
       "display_name": "Python 3 (ipykernel)",
